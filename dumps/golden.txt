@@ -1,0 +1,44 @@
+# golden.txt - per-scene md5 of the frontendtsplp render (shaded_lp_<scene>.bmp)
+# generated 2026-07-27 from polly2-rtl bb998ab (+ pipelined tsp_blend WIP), verilator frontendtsplp
+# format: <md5>  <scene>
+0a140cf3b5302bcd976148d61adf1f89  18wheel_select
+9fcaa35e68a5a4106e994189a642b70c  crazy_title
+df00b5782fc145fcc1b2d914240d293b  daytona_behind
+e2d8a99c2667e5516ffdae63af0be7fe  daytona_front
+34f4c638f9fc11ef4f2bf0ede88a7441  daytona_intro
+8e91c34dc316316e4f14a3b65d82e12b  daytona_sanic
+bdf9fb520cb0e8bdcb83141fdbd8bcd3  doa2_kasumi
+6fce1fe5dda52de5ee53784e04a7ff59  hotd2_boat
+08e71c90d0e11b309bfeb105ff30fe13  hotd2_car_fire
+8c81612091e59f8bcf2b218f9f091d3d  hotd2_gargoyle
+8a6594a2f88dfd5eba0a27a2cdd11e3a  hotd2_selfie
+093033e1950a639ae1ab3488d4917f99  hotd2_title
+e680a412e5040abefe3868f3e6fc00f4  hotd2_zombies
+398c43f52655860cf949078563d1640e  hydro_title
+2658bee975e79a6ed35dd6b23eecb344  jgr
+b1c88e7dae95da3d94a922dcb7ddaeb6  logo
+2427b9ebf35b5c7cf60ce633b86f48a5  looney_foghorn
+a281491828d296e500fa88d3956c4e83  looney_startline
+9c86ab1ac4046fd983b8c7b910c25d56  mem
+750645cf92618d013bb6b607e93d9284  menu
+fc92de58e7b0ac42bbd0d2325e078fb8  menu2
+158c6b1c5d1f12445647b88e26c3a2c8  rayman_level
+806fd67cdaed15bf57f01e0f1859ca66  rayman_lights
+ce96a0463a76d2e62ddc5cde2fac1477  rayman_title
+5ac3aec48f3fc6246456c17c336bd3e1  shenmue_intro
+f63370508f40e89af4715d5ac574a180  shenmue_intro2
+75995fd8903c1321a97db14434b20d47  shenmue_intro3
+f1ca0badbb51eb99dc72376054682a6a  shenmue_menu
+e3912472ea66e613101063a774c7268c  sonic
+09ab433f33537ece02cc9be22cb6b1aa  sonic_title
+c60572aa71bb9e60a61ce5e42062cdd5  sw_ep1_menu
+61d86906d62fcbcabf1eddaffc8b7bc8  taxi
+bc27a63b708c3d8744668ccec706b3ce  taxi2
+34f7243855fbdcd10290d19b36857061  taxi3
+2b246c5d77230b84f65c56c28eec1323  taxi4
+504bd840cc0a0eed4be36d9528d6e8b3  thps2_ingame
+762457947546c6671f342f2658c26e17  thps2_ingame2
+212f586f0f441e95a8da6d324bc687a1  thps2_ingame3
+821c0a66f485f010e90972dff4776c01  thps2_menu
+d8b3bbd725aeb69d361c0d4948917b35  toy_front
+2e27f277e8ff2b4a8c0c267096304502  xtreme_intro
