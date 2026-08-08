@@ -5,44 +5,50 @@
 # resolve (r6/punchthroughs): alpha-test-FAILING PT fragments no longer blend
 # (old path's a=0 blend lost 1 LSB/channel via the >>8 shortcut - a true hole
 # leaves the pixel untouched, matching refsw2's exact /255 no-op).
-0a140cf3b5302bcd976148d61adf1f89  18wheel_select
-9fcaa35e68a5a4106e994189a642b70c  crazy_title
+# 2026-08-08: ALL scenes regenerated for the composite peel key
+# (isp_depth_cmp_lp): coincident (equal-invW) fragments now peel in ASCENDING
+# tag order = submission order, back to front. The old refsw2 rule peeled them
+# in DECREASING tag order (reverse submission). 18 scenes changed; renders
+# accepted by inspection and kept in ../golden/<scene>.bmp. psy2_boot added.
+a5a228fb31e66244769f540ba5ad422f  18wheel_select
+1d8a549389e360139e56ec217dbcc7c9  crazy_title
 df00b5782fc145fcc1b2d914240d293b  daytona_behind
 e2d8a99c2667e5516ffdae63af0be7fe  daytona_front
 34f4c638f9fc11ef4f2bf0ede88a7441  daytona_intro
-8e91c34dc316316e4f14a3b65d82e12b  daytona_sanic
+3c3543ceb8ae6048b61543cee6fd323f  daytona_sanic
 bdf9fb520cb0e8bdcb83141fdbd8bcd3  doa2_kasumi
 6fce1fe5dda52de5ee53784e04a7ff59  hotd2_boat
 08e71c90d0e11b309bfeb105ff30fe13  hotd2_car_fire
-8c81612091e59f8bcf2b218f9f091d3d  hotd2_gargoyle
-8a6594a2f88dfd5eba0a27a2cdd11e3a  hotd2_selfie
-093033e1950a639ae1ab3488d4917f99  hotd2_title
-e680a412e5040abefe3868f3e6fc00f4  hotd2_zombies
+573d9332a6bc465b6673818d011dbbf2  hotd2_gargoyle
+69522f4a1a96ef53dec8fb0e938749a9  hotd2_selfie
+684a995841368b56c99cc50ab8562d83  hotd2_title
+8c4b0fc89cca7bfc4e70d8c6593d95fa  hotd2_zombies
 398c43f52655860cf949078563d1640e  hydro_title
 ac3213200fc92254dd65bd865d507163  jgr
-b1c88e7dae95da3d94a922dcb7ddaeb6  logo
+5b56a4eeb6d28ef76a5d9f1ada66d115  logo
 2427b9ebf35b5c7cf60ce633b86f48a5  looney_foghorn
 a281491828d296e500fa88d3956c4e83  looney_startline
 9c86ab1ac4046fd983b8c7b910c25d56  mem
-750645cf92618d013bb6b607e93d9284  menu
-fc92de58e7b0ac42bbd0d2325e078fb8  menu2
+566e0d198f78a89dab68b2bc72146e90  menu
+b58eb5f32d55dc6be9ffd24521c3af05  menu2
+9b6eaceeb22819924e97ff2427cd95fb  psy2_boot
 158c6b1c5d1f12445647b88e26c3a2c8  rayman_level
-806fd67cdaed15bf57f01e0f1859ca66  rayman_lights
-ce96a0463a76d2e62ddc5cde2fac1477  rayman_title
+3cd2af73683ff634d77416aa203b6fde  rayman_lights
+ffb9ef72f292ea7edd3193fb27ad85da  rayman_title
 a509622e28181aaec30384d7a40a7e9c  shenmue_intro
 405377f5f3f5affbcb158ac404aa4f63  shenmue_intro2
 f5192d3571bb8fddf8cca04ab5fff312  shenmue_intro3
-f1ca0badbb51eb99dc72376054682a6a  shenmue_menu
+7f3cc0c1d73532e92e081d61544de36c  shenmue_menu
 e3912472ea66e613101063a774c7268c  sonic
 09ab433f33537ece02cc9be22cb6b1aa  sonic_title
-54ad1aa8ba66cc142fc8c97ab8220a43  sw_ep1_menu
+d423431cf9f31316324c070277227725  sw_ep1_menu
 61d86906d62fcbcabf1eddaffc8b7bc8  taxi
-bc27a63b708c3d8744668ccec706b3ce  taxi2
+770191f064a62cdfa7edd8e081d7fabf  taxi2
 34f7243855fbdcd10290d19b36857061  taxi3
-2b246c5d77230b84f65c56c28eec1323  taxi4
+bf5726a905d1dc0fc752dbcde5de7ac6  taxi4
 504bd840cc0a0eed4be36d9528d6e8b3  thps2_ingame
 762457947546c6671f342f2658c26e17  thps2_ingame2
 212f586f0f441e95a8da6d324bc687a1  thps2_ingame3
 821c0a66f485f010e90972dff4776c01  thps2_menu
-d8b3bbd725aeb69d361c0d4948917b35  toy_front
-2e27f277e8ff2b4a8c0c267096304502  xtreme_intro
+8bf01934bb2a9da0b6a41484a524f2e1  toy_front
+7323d0c14174a78df4eb00ed3e150ff8  xtreme_intro
